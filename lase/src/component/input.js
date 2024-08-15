@@ -63,8 +63,8 @@ function Input() {
             ) : (
                 !showFinalGiphy ? (
                     <div className="result" style={{ position: 'relative', display: 'inline-block' }}>
-                        <h1>Halo {name}</h1>
-                        <p>This is for you</p>
+                        <h1>Hai {name}</h1>
+                        <p>take it</p>
                         <audio
                             ref={audioRef}
                             src="/lagu.mp3"
@@ -84,7 +84,7 @@ function Input() {
                                     fontSize: '16px'
                                 }}
                             >
-                                Tolak
+                                ngkdlu
                             </button>
                             <button
                                 onClick={handleAccept}
