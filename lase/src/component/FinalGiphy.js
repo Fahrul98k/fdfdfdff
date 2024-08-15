@@ -2,20 +2,24 @@ import React from 'react';
 
 const FinalGiphy = () => {
     // URL GIF dari Giphy
-    const giphyUrl = "https://giphy.com/embed/N4AIdLd0D2A9y"; // Ganti dengan URL GIF sesuai kebutuhan
+    const giphyUrl = "https://giphy.com/embed/6a67zVJ0wMMOzg3YKA"; // Ganti dengan URL GIF sesuai kebutuhan
 
     return (
         <div style={{ textAlign: 'center' }}>
-            <iframe
-                src={giphyUrl}
-                width="480"
-                height="480"
-                frameBorder="0"
-                className="giphy-embed"
+            <iframe 
+                src={giphyUrl} 
+                width="320" 
+                height="320" 
+                frameBorder="0" 
+                className="giphy-embed" 
                 allowFullScreen
-                title="Final Giphy"
+                title="Giphy GIF"
             ></iframe>
-            <p><a href={giphyUrl}>via GIPHY</a></p>
+            <p>
+                <a href={giphyUrl} target="_blank" rel="noopener noreferrer">
+                    via GIPHY
+                </a>
+            </p>
         </div>
     );
 };
